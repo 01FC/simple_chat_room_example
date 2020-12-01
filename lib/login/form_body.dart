@@ -21,10 +21,9 @@ class FormBody extends StatelessWidget {
     return Column(
       children: [
         // logo
-        Image.asset(
-          "assets/images/fotos.png",
-          height: 256,
-          width: 256,
+        Placeholder(
+          fallbackHeight: 256,
+          fallbackWidth: 256,
         ),
         SizedBox(height: 20),
         Container(
